@@ -1,0 +1,69 @@
+.icon_wrapper {
+  border-radius: 8px;
+}
+
+.hamburger_menu_icon {
+  width: 25px;
+  height: 25px;
+  color: black !important;
+}
+
+.close_icon {
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+
+.hamburger_display_menu {
+  width: 0;
+  height: 100%;
+  z-index: 1;
+  background-color: black !important;
+  top: 0px;
+  right: 0px;
+  transition: 0.5s;
+  position: fixed;
+  overflow: auto;
+}
+
+.hamburger_display_menu::-webkit-scrollbar {
+  display: none;
+  scrollbar-width: none;
+}
+
+@media (min-width: 991px) and (max-width: 199999px) {
+  /* CSS styles for medium (md) breakpoint */
+  .hamburger_menu_icon {
+    display: none;
+    /* Your styles here */
+  }
+}
+.hamburger_menu_list li {
+  list-style-type: none;
+  padding: 8px;
+}
+
+.hamburger_menu_list li a {
+  text-decoration: none;
+  transition: 0.5s;
+  color: whitesmoke !important;
+  display: block;
+  font-size: 15px;
+}
+
+.dropdown_icon {
+  color: whitesmoke !important;
+}
+
+.hamburger_dropdown_toggle {
+  background-color: transparent !important;
+  color: whitesmoke !important;
+  border: none !important;
+  border-color: transparent !important;
+  width: 80px;
+}
+
+.dropmenu {
+  font-size: 21px;
+  padding-left: 8px;
+}/*# sourceMappingURL=Hamburger.css.map */

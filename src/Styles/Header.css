@@ -1,0 +1,42 @@
+.company_logo {
+  width: 220px;
+}
+
+.nav_Links .nav-link {
+  color: black !important;
+}
+
+@media (max-width: 993px) {
+  /* CSS styles for small (sm) breakpoint */
+  .navbar-toggler {
+    display: none !important;
+  }
+}
+.nav_Links {
+  font-size: 18px;
+  display: flex;
+}
+@media (min-width: 426px) and (max-width: 991.98px) {
+  .nav_Links {
+    /* CSS styles for medium (md) breakpoint */
+  }
+}
+
+.services-dropdown {
+  border: 0px;
+  font-size: 16px;
+  padding: 8px;
+}
+@media (max-width: 426px) {
+  .services-dropdown {
+    color: white;
+    font-size: 18px;
+    padding: 0;
+    padding-top: 1px;
+    padding-bottom: 13px;
+  }
+}
+
+.dropdown-item {
+  font-size: 14px;
+}/*# sourceMappingURL=Header.css.map */

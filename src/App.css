@@ -1,0 +1,404 @@
+.App {
+  /* font-family: "poppins"; */
+  /* text-align: center; */
+}
+
+/* body {
+  font-family: "Orbitron";
+} */
+
+body{
+  font-family:"Poppins", serif;;
+}
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+ /* CSS BY JUEE   */
+
+/* Font style Global */
+
+/* Section Heading */
+.Section-Heading {
+  font-weight: bold !important;
+  line-height: 35px !important ;
+  font-size: 2rem !important;
+  word-spacing: 3px !important;
+  letter-spacing: 2px !important;
+}
+.Letter-Spacing {
+  letter-spacing: 2px;
+}
+.left-side-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Sub-Font  */
+.Sub-Font {
+  font-family: "Gotham";
+  font-size: 1.3rem;
+}
+
+.Banner-Heading-h1 {
+  font-size: 3rem;
+  line-height: 3.3rem;
+}
+
+@media (max-width: 767.98px) {
+  /* CSS styles for small (sm) breakpoint */
+  .Banner-Heading-h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    letter-spacing: 3px;
+  }
+  .Section-Heading {
+    font-weight: bold !important;
+    line-height: 35px !important;
+    font-size: 1.5rem !important;
+    word-spacing: 3px !important;
+    letter-spacing: 2px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* CSS styles for medium (md) breakpoint */
+  .Banner-Heading-h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    letter-spacing: 3px;
+  }
+  .Section-Heading {
+    font-weight: bold !important;
+    line-height: 35px !important;
+    font-size: 2rem !important;
+    word-spacing: 3px !important;
+    letter-spacing: 2px !important;
+  }
+}
+
+.Flex-Center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767.98px) {
+  /* CSS styles for small (sm) breakpoint */
+  .Sub-Text-Padding {
+    padding: 20px 0px 0px 0px !important;
+    margin: 0px !important;
+  }
+}
+
+/* aftermking live */
+.underline_img_Learning
+{
+padding-top:10px;
+padding-bottom: 10px;
+text-align: center;
+}
+.underline_aboutus{
+  padding-top:10px;
+padding-bottom: 10px;
+
+}
+.underline_img{
+  padding-top:10px;
+padding-bottom: 10px;
+
+}
+@media (max-width: 990.98px) {
+  /* CSS styles for small (sm) breakpoint */
+  .center-center-any {
+    text-align: center !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 391px) {
+  /* CSS styles for small (sm) breakpoint */
+  .center-center-any1 {
+    text-align: center !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.carousel-control-prev{
+  display: none;
+}
+.carousel-control-next{
+  display: none;
+}
+@media (min-width: 200px) and (max-width: 991px) {
+  /* CSS styles for medium (md) breakpoint */
+  .Flex-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width:315px) {
+  /* CSS styles for medium (md) breakpoint */
+  .Small-Screen-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+
+/* Suraj CSS */
+
+.flex-direction-column {
+  flex-direction: column;
+  font-family: "Gotham";
+  font-size: 1.3rem;
+}
+.Content-font {
+  font-size: 18px;
+  font-family: "Gotham";
+}
+
+.button-default-class {
+  background: linear-gradient(to right, #0d1be3, #e620cf);
+  color: white;
+  font-size: 14px;
+  border-radius: 0;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.button-default-class-black {
+  background: linear-gradient(90deg, #454141, #ff0000);
+  color: white;
+  font-size: 14px;
+  border-radius: 2px;
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-default-class-black:hover {
+  background: linear-gradient(90deg, #ff0000, #3b3636);
+  transform: scale(1.05);
+}
+
+/* Swal by DI  */
+.swal-overlay--show-modal .swal-modal {
+  opacity: 1;
+  pointer-events: auto;
+  box-sizing: border-box;
+  -webkit-animation: showSweetAlert 0.3s;
+  animation: showSweetAlert 0.3s;
+  will-change: transform;
+}
+
+.swal-title {
+  color: white;
+  font-weight: 600;
+  text-transform: none;
+  position: relative;
+  display: block;
+  padding: 13px 16px;
+  font-size: 27px;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.swal-modal {
+  width: 478px;
+  opacity: 0;
+  pointer-events: none;
+  /* background-color: #fff; */
+  text-align: center;
+  border-radius: 0px;
+  position: static;
+  margin: 20px auto;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform-origin: 50% 50%;
+  background: linear-gradient(45deg, #006060, #000060, #600060);
+  transform-origin: 50% 50%;
+  z-index: 10001;
+  transition: opacity 0.2s, -webkit-transform 0.3s;
+  transition: transform 0.3s, opacity 0.2s;
+  transition: transform 0.3s, opacity 0.2s, -webkit-transform 0.3s;
+}
+
+.swal-icon--success__line {
+  height: 5px;
+  background-color: #5cff00;
+  display: block;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 2;
+}
+
+.swal-text {
+  font-size: 16px;
+  position: relative;
+  float: none;
+  line-height: normal;
+  vertical-align: top;
+  text-align: left;
+  display: inline-block;
+  margin: 0;
+  padding: 0 10px;
+  font-weight: 400;
+  color: white;
+  max-width: calc(100% - 20px);
+  overflow-wrap: break-word;
+  box-sizing: border-box;
+}
+
+.swal-button {
+  color: black;
+  border: none;
+  box-shadow: none;
+  border-radius: 0px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 50px;
+  /* background: linear-gradient(to right, #0000ff, #ff00ff); */
+  background: whitesmoke;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.swal-button:not([disabled]):hover {
+  background: linear-gradient(to right, #0000ff, #ff00ff);
+  color: white;
+  border: none
+}
+
+.swal-icon--error {
+  border-color: #ff0000;
+  -webkit-animation: animateErrorIcon 0.5s;
+  animation: animateErrorIcon 0.5s;
+}
+
+.swal-icon--error__line {
+  position: absolute;
+  height: 5px;
+  width: 47px;
+  background-color: #ff0000;
+  display: block;
+  top: 37px;
+  border-radius: 2px;
+}
+
+.swal-icon--success__ring {
+  width: 80px;
+  height: 80px;
+  border: 4px solid hsl(110.73deg 100% 50%);
+  border-radius: 50%;
+  box-sizing: content-box;
+  position: absolute;
+  left: -4px;
+  top: -4px;
+  z-index: 2;
+}
+.swal-icon--success:after,
+.swal-icon--success:before {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  width: 60px;
+  height: 120px;
+  background: #ffffff00;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.swal-icon--success__hide-corners {
+  width: 5px;
+  height: 90px;
+  background-color: #ffffff00;
+  padding: 1px;
+  position: absolute;
+  left: 28px;
+  top: 8px;
+  z-index: 1;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.swal-footer {
+  text-align: right;
+  padding-top: 13px;
+  margin-top: 13px;
+  padding: 13px 16px;
+  border-radius: inherit;
+  border-top-left-radius: 0;
+  display: flex;
+  border-top-right-radius: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
