@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import TDTL_logo from "../Images/TDTL_logo.png";
+import Tech_Logo from "../Images/Tech_Logo.jpg";
 import "../Styles/Header.css";
 import { Link } from "react-router-dom";
 import HamburgerMenu from "./HamburgerMenu";
@@ -23,10 +24,10 @@ import {
 export default function Header() {
   return (
     <div>
-        <div className="container-fluid topbar bg-light px-5 d-none d-lg-block">
+        {/* <div className="container-fluid topbar bg-light px-5 d-none d-lg-block">
             <div className="row gx-0 align-items-center">
-              {/* Left Side - Contact Info */}
-              <div className="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+          
+              <div className="col-lg-8 text-center text-lg-start mb-2 -lg-0">
                 <div className="d-flex flex-wrap">
                   <Link to="/" className="text-muted small me-4">
                     <FaMapMarkerAlt className="text-primary me-2" />
@@ -46,7 +47,7 @@ export default function Header() {
                 </div>
               </div>
 
-              {/* Right Side - User Links & Dropdown */}
+           
               <div className="col-lg-4 text-center text-lg-end">
                 <div
                   className="d-inline-flex align-items-center"
@@ -65,7 +66,7 @@ export default function Header() {
                     </small>
                   </Link>
 
-                  {/* Dropdown Menu */}
+                 
                   <div className="dropdown">
                     <a
                       href="#"
@@ -98,12 +99,12 @@ export default function Header() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
       <Navbar bg="light" expand="lg">
         <Container className="">
           <Navbar.Brand href="#home">
             <Link to="/">
-              <img src={TDTL_logo} className="company_logo" alt="not" />
+              <img src={Tech_Logo} className="Tech_logo_Header" alt="not" />
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav Navbar-Hide" />
