@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
+import CourseDetails from '../Components/CourseDeProps'
 
 export default function LandingPage() {
   return (
@@ -58,9 +59,7 @@ export default function LandingPage() {
                               data-bs-parent="#accordionExample"
                             >
                               <div className="accordion-body Sub-Font accordion-body-Digital">
-                                The Data Tech Labs help organizations design and
-                                implement effective change management strategies
-                                to drive successful transformations.
+                               cessful transformations.
                               </div>
                             </div>
                           </div>
@@ -171,8 +170,7 @@ export default function LandingPage() {
                               data-bs-parent="#accordionExample"
                             >
                               <div className="accordion-body Sub-Font accordion-body-Digital ">
-                                The Data Tech Labs helps organizations build the
-                                capabilities they need to succeed in today's
+                               hey need to succeed in today's
                                 digital age.
                               </div>
                             </div>
@@ -347,6 +345,7 @@ export default function LandingPage() {
               </div>
             </div>
           </div>
+        
       <Footer/>
       </div>
   )

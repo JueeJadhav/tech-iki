@@ -2,25 +2,25 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import TDTL_logo from "../Images/TDTL_logo.png";
+// import NavDropdown from "react-bootstrap/NavDropdown";
 import Tech_Logo from "../Images/Tech_Logo.jpg";
 import "../Styles/Header.css";
 import { Link } from "react-router-dom";
 import HamburgerMenu from "./HamburgerMenu";
-import {
-  FaMapMarkerAlt,
-  FaPhoneAlt,
-  FaEnvelope,
-  FaUser,
-  FaSignInAlt,
-  FaHome,
-  FaUserAlt,
-  FaCommentAlt,
-  FaBell,
-  FaCog,
-  FaPowerOff,
-} from "react-icons/fa";
+// import {
+//   FaMapMarkerAlt,
+//   FaPhoneAlt,
+//   FaEnvelope,
+//   FaUser,
+//   FaSignInAlt,
+//   FaHome,
+//   FaUserAlt,
+//   FaCommentAlt,
+//   FaBell,
+//   FaCog,
+//   FaPowerOff,
+// } from "react-icons/fa";
+
 export default function Header() {
   return (
     <div>

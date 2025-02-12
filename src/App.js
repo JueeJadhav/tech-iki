@@ -5,6 +5,10 @@ import LandingPage from './Pages/LandingPage';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import Profile from './Components/Profile';
+import CourseDeProps from './Components/CourseDeProps';
+import CourseDetails from './Pages/CourseDetails';
+
+
 // import Navbar from './Components/Navbar';
 
 function App() {
@@ -17,6 +21,8 @@ function App() {
         <Route path="/header" element={<Header/>} />
         {/* <Route path="/profile" element={<Profile/>} /> */}
         {/* <Route path="/nav" element={<Navbar/>} />  */}
+        <Route path="/course-details-props" element={<CourseDeProps/>} />
+        <Route path="/course-details" element={<CourseDetails/>} />
 
        
       </Routes>
